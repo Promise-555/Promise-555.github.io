@@ -10,29 +10,29 @@
 
 在真值函数逻辑里，任何给定的命题P如果不是真的，就是假的，没有其他可能。下面的图表是真值表（truth table），它罗列了命题P的真值的两种可能情形（T表示真值为真，F表示真值为假）：
 
-> ![真值表](media/image15.jpeg)
+> ![真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436077.png)
 
 ### 四种真值函数命题
 
 可以利用真值表来定义真值函数符号：无论命题P的真值如何，其负命题或矛盾命题（用符号～P表示）的真值与之正好相反。因此，负命题（negation）的真值表为：
 
-> ![负命题真值表](media/image16.jpeg)
+> ![负命题真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436167.png)
 
 因为任何给定的判断非真即假，所以对两个命题P和Q而言，其真值情形的四种组合分别为：P和Q二者都真、都假或它们的真值正好相反，其中一个为真，另一个为假。具体如下图所示：
 
-> ![真值组合](media/image17.jpeg)
+> ![真值组合](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436253.png)
 
 合取命题（conjunction）是由两个（被称为合取支的）简单命题构成的复合命题：当且仅当构成它的两个简单命题（合取支）都为真时，合取命题为真。合取命题的一个例子是“帕克在家而摩尔在工作”。符号“&”把两个合取支P、Q联结起来，表达“P且Q”。合取命题的真值表为：
 
-> ![合取命题真值表](media/image18.jpeg)
+> ![合取命题真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436389.png)
 
 析取命题（disjunction）是由两个（被称为析取支的）简单命题组成的复合命题。当且仅当两个析取支都假时，析取命题为假。例如：帕克在家或摩尔在工作。用符号来表达析取命题时，符号“∨”用来代表析取命题的连接词，自然语言中，与符号“∨”最贴近的词是“或”。析取命题的真值表为：
 
-> ![析取命题真值表](media/image19.jpeg)
+> ![析取命题真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436530.png)
 
 由两个简单命题构成的第三种复合命题是假言命题（conditional claim）。日常语言中，通常用词语“如果……那么……”来表述条件，例如：如果帕克在家，那么摩尔就在工作。用箭头符号“→”来表示假言命题的连接词，假言命题的符号形式是：P→Q。假言命题中的前一个简单命题，即P，是前件（antecedent），而第二个简单命题，即Q，是后件（consequent）。当且仅当前件为真而且后件为假时，假言命题为假。假言命题的真值表为：
 
-> ![假言命题真值表](media/image20.jpeg)
+> ![假言命题真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B436750.png)
 
 假设摩尔向你承诺，如果他上午拿到薪水，中午就请客。这可以表达为假言命题：如果摩尔上午拿到薪水，那么他中午请客。我们可以分别用P（表示“摩尔上午拿到薪水”这个命题）和L（表示“摩尔中午请客”这个命题）及连接词符号把上述命题表达为：P→L。
 
@@ -40,7 +40,7 @@
 
 ### 总结
 
-> ![真值函数命题总结](media/image21.jpeg)
+> ![真值函数命题总结](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B437095.png)
 
 复合命题形式中每增加一个字母，各命题变元的真值组合的可能性就要在以前的基础上加倍，真值表的行数也因此加倍。判断一个复合命题形式的真值表的行数的公式是r=2的n次方，其中r是表格的行数，n是命题形式中的字母数。
 
@@ -92,53 +92,53 @@
 
 例子：将有大量北极气团（A）流向中西部，除非急流（J）向南移动。可惜，急流不可能向南移动，所以，北极气团将流向中西部。用符号表达为：
 
-> ![符号表达示例](media/image22.jpeg)
+> ![符号表达示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B439370.png)
 
 这个论证的真值表为：
 
-> ![真值表示例](media/image23.jpeg)
+> ![真值表示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B439383.png)
 
 我们要知道这个论证是否有效，就要看有无可能其前提为真而结论为假，如果有这样的可能性，那么在真值表中会表现出来，因为真值表罗列了命题变元A和J真值组合的所有可能情况。该真值表只有在第二行里，前提都是真的，检查该行中的结论A就会发现，在该行里结论也是真的。因此，没有这样一种可能，其中前提为真而结论为假。所以该论证是有效的。
 
 下面是一个复杂些的例子：如果斯嘉丽在该案中有罪，那么怀特夫人肯定没有锁后门并且上校肯定在十点之前就就寝了。然而，或者怀特夫人锁了后门，或者上校在十点之前并没有就寝。因此，斯嘉丽无罪。为表示这个论证的形式，我们用字母表示简单命题：S=斯嘉丽在该案中有罪。W=怀特夫人没有锁后门。C=上校在十点之前就寝。用符号来表达这个论证：
 
-> ![复杂论证符号表达](media/image24.jpeg)
+> ![复杂论证符号表达](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B439708.png)
 
 让我们仔细思考一下这个论证。你在阅读的时候，请参考前面用符号来表达命题的部分。注意第一个命题是假言命题，前件为“斯嘉丽在该案中有罪”，后件是一个合取命题。回想一下合取命题的真值表就会发现，要想使得该合取命题为真，“怀特夫人没有锁后门”和“上校在十点之前就寝”必须都为真。而第二个前提是一个析取命题，它告诉我们或者怀特夫人锁了后门或者上校在十点前并没有就寝。但是如果这两个析取支中有一个或两个是真的，那么前面的合取命题中就至少有一个支判断是假的，所以不会出现合取判断的支判断都真的情况。这就意味着符号W & C所表达的合取命题一定为假，即假言前提的后件是假的。在这种情况下，怎样才能使假言前提为真呢？唯有其前件也为假，也就是说，结论“斯嘉丽无罪”肯定是真的。
 
 只要填好了真值表，评估论证是否有效就简单了。我们只要看是否能找出前提为真而结论为假的行，只要能发现哪怕一行，就足以证明论证无效。该例中，我们发现只在真值表的最后三行中前提都是真的，而这几行里，结论也是真的。所以不存在这种情况——真值表里没有这样一行——其中前提都为真而结论为假。因此，该论证是有效的。
 
-> ![复杂论证真值表](media/image25.jpeg)
+> ![复杂论证真值表](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440188.png)
 
 #### 10.4.2　简化真值表法
 
 判定真值函数论证有效或无效的简单易行方法就是简化真值表法。该方法背后的理念是：如果一个论证是无效的，那么在论证的真值表中至少有一行使得前提为真而结论为假。简化真值表法就是直接去寻找真值表中的这一行。请看下面的论证形式：
 
-> ![论证形式示例](media/image26.jpeg)
+> ![论证形式示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440314.png)
 
 先看论证的结论：结论是假言命题，只有一种方法使其为假，即使其前件为真而后件为假。为满足这一点，就要令P和R都为假。在结论为假的条件下能让两个前提都真吗？只要Q为真，就可以满足这一点。也就是：
 
-> ![简化真值表法示例](media/image27.jpeg)
+> ![简化真值表法示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440412.png)
 
 命题变元的这种真值组合使得两个前提都真而结论为假，因而证明了这个论证是无效的。我们不必烦琐地创建整个真值表而只需给出与证明论证无效相关的一行。如果论证是有效的，我们就无法找到这样一行。
 
 下面说明针对有效的论证如何运用这种方法：
 
-> ![有效论证示例](media/image28.jpeg)
+> ![有效论证示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440528.png)
 
 使得该论证结论为假的唯一方法是让S为真而R为假。所以要做如下赋值：
 
-> ![赋值示例1](media/image29.jpeg)
+> ![赋值示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440564.pngg)
 
 既然S为真，为使第二个前提为真就要Q为真。由此继续赋值：
 
-> ![赋值示例2](media/image30.jpeg)
+> ![赋值示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440595.png)
 
 但基于上述真值，根本不可能使得第一个命题为真，因为P∨Q为真（既然Q为真）而R为假。因为除上述赋值方法外，没有其他方法使得结论为假而第二个前提为真，又因为这唯一的赋值方法无法使得第一个前提为真，所以我们就能得出结论：该论证有效。
 
 有时候，可能有不止一种方法让论证的结论为假。例如：
 
-> ![多种赋值可能示例](media/image31.jpeg)
+> ![多种赋值可能示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440738.png)
 
 该论证无效，自己证明吧。
 
@@ -154,17 +154,17 @@
 
 这种模式的任何论证都是有效的。
 
-> ![分离规则](media/image32.jpeg)
+> ![分离规则](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441074.png)
 
 如果前提之一是假言命题，而另一个前提是第一个假言命题的前件，那么，根据分离规则，就可以从这两个前提中推出假言命题的后件作为结论。作为假言命题的构成部分的命题不必是简单字母——如果在P的位置上是一些更复杂的表达式，如（P∨R），只要在上述模式中P出现的任何地方都是该复合表达式，就还是上面的推理模式。如：
 
-> ![分离规则示例](media/image33.jpeg)
+> ![分离规则示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441227.png)
 
 该推理就是，如果在演绎的一行中有一个假言命题，而另一行是这个假言命题的前件，那就可以在新的一行中记下该假言命题的后件。
 
 如果上述假言命题的后件是该论证的结论，那么，演绎推理就完成了——结论已经得出。如果它还不是你所关注的论证的结论，那么，该假言命题的后件可以作为推出你所寻找的结论的另一个前提。例如：
 
-> ![演绎推理示例](media/image34.jpeg)
+> ![演绎推理示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441379.png)
 
 我们给论证的三个前提标上了数字，把结论放在旁边（此后，我们将用一根斜线和三个点［／∴］来代替“所以”，作为结论的提示词）。注意，第一行是一个假言命题，第三行是它的前件。分离规则允许我们写下第一行的后件作为我们演绎中新的一行：4. R 1，3，MP
 
@@ -174,7 +174,7 @@
 
 请注意分离规则的准确适用。可以对其运用分离规则的假言命题必须是独立的，如果假言命题只是某复合命题的支命题，就不能对其运用MP规则。比如：
 
-> ![分离规则错误应用示例](media/image35.jpeg)
+> ![分离规则错误应用示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441717.png)
 
 这就是不规范地运用MP规则。第一行的确有一个支命题是假言命题，第二行也的确是第一行的假言命题的前件，但分离规则不能运用到作为支命题的假言命题之上。
 
@@ -182,53 +182,53 @@
 
 否定后件式的推理模式如下：如果一个前提是假言命题，而另一前提否定该假言命题的后件，那就可以写出假言命题的前件的否定作为演绎的结论。
 
-> ![否定后件式](media/image36.jpeg)
+> ![否定后件式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441873.png)
 
 下面的演绎推理运用了前面两条规则：
 
-> ![否定后件式示例](media/image37.jpeg)
+> ![否定后件式示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441999.png)
 
 规则3：连锁论证式（CA）
 
 若前提中的两个命题都是假言命题，而且一个假言命题的前件正好是另一个假言命题的后件，连锁论证（chain argument）规则就允许你从这两个假言命题中推导出一个假言命题做结论。
 
-> ![连锁论证式](media/image38.jpeg)
+> ![连锁论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442053.png)
 
 规则4：析取论证式（DA）
 
 一个前提是析取命题，另一个前提否定其中一个析取支，则可以推出另一个析取支。
 
-> ![析取论证式](media/image39.jpeg)
+> ![析取论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442124.png)
 
 规则5：合取分解式（SIM）
 
 如果合取命题是真的，那么合取支一定都是真的。因而，以一个合取命题为前提可以演绎地推出任意一个合取支为结论。
 
-> ![合取分解式](media/image40.jpeg)
+> ![合取分解式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442182.png)
 
 规则6：合取合成式（CONJ）
 
 这条规则允许你从前提中推出一个合取命题作为结论，该结论由各前提作为合取支构成。
 
-> ![合取合成式](media/image41.jpeg)
+> ![合取合成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442250.png)
 
 规则7：析取附加式（ADD）
 
 显然，无论P和Q代表什么命题，只要P是真的，或者P或者Q一定为真。一个析取支为真则整个析取命题为真。
 
-> ![析取附加式](media/image42.jpeg)
+> ![析取附加式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442325.png)
 
 规则8：两难推理的构成式（CD）
 
 以两个假言命题和它们的前件的析取为前提可以推导出一个析取命题为结论，结论的析取支分别是上述两个假言命题的后件。
 
-> ![两难推理的构成式](media/image43.jpeg)
+> ![两难推理的构成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442406.png)
 
 规则9：两难推理的破坏式（DD）
 
 以两个假言命题和它们的后件的否定的析取为前提可以推导出一个析取命题为结论，结论的析取支分别是上述两个假言命题的前件的否定。
 
-> ![两难推理的破坏式](media/image44.jpeg)
+> ![两难推理的破坏式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442941.png)
 
 #### 10.5.2　第二组规则：真值函数的等值式
 
@@ -246,7 +246,7 @@ P↔ ～～P
 
 下面是运用DN规则的实例：
 
-> ![双重否定律示例](media/image45.jpeg)
+> ![双重否定律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B443457.png)
 
 规则11：交换律（COM）
 
@@ -266,7 +266,7 @@ P↔ ～～P
 
 假言命题的前件或后件中有而且只有一个带否定符号时，依然可以运用规则13，不过需要采取两个步骤，先运用双重否定规则，再进行假言易位。如：足够熟练后，也可以将上述两步合并为一个步骤。
 
-> ![假言易位律示例](media/image46.jpeg)
+> ![假言易位律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444138.png)
 
 规则14：德摩根定律（DEM）
 
@@ -296,13 +296,13 @@ P↔ ～～P
 
 下面的两个例子是对第一组规则和第二组规则的综合运用。
 
-> ![综合运用示例1](media/image47.jpeg)
+> ![综合运用示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444140.png)
 
-> ![综合运用示例2](media/image48.jpeg)
+> ![综合运用示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444152.png)
 
 真值函数的演绎规则
 
-> ![真值函数演绎规则](media/image49.jpeg)
+> ![真值函数演绎规则](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444453.png)
 
 #### 10.5.3　条件证明
 
@@ -310,11 +310,11 @@ P↔ ～～P
 
 使用CP作为新规则的方法是：在给定的前提之后，直接记下我们想要证明的假言命题的前件，并给推理串的这个步骤的编码画上圈；在该行的注释中，标明“CP前提”。下面就是范例：
 
-> ![条件证明示例1](media/image50.jpeg)
+> ![条件证明示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444530.png)
 
 在证明了所需要的假言命题的后件之后，写下整个假言命题。然后，在推理串左边的空白处画上一条线，把画圈的前提和我们由此推出后件的那一行连接起来。证明过程
 
-> ![条件证明示例2](media/image51.jpeg)
+> ![条件证明示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444980.png)
 
 一旦我们得出了假言命题～P→R，就不再依赖CP前提，所以我们在推理串左边空白处从CP前提到由之推出的最后一步画上连接线，表明消除了这个设定的前提。
 
@@ -327,17 +327,17 @@ P↔ ～～P
 
 下面运用CP的例子中，有两个附加的前提是假设的，并且以相反的顺序被消去。
 
-> ![条件证明示例3](media/image52.jpeg)
+> ![条件证明示例3](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445156.png)
 
 注意，在第5步加上的附加前提在第8步完成的时候消去了，而第10步完成的时候把第3步的前提消去了。再一次注意：无论何时消去假设前提，你必须让这个命题成为演绎推理中下一步中假言命题的前件（你可以尝试不使用CP来完成前面的演绎，你会庆幸可以运用这个规则，虽然看上去掌握这条规则有些困难，但使用CP让许多演绎推论简化易行）。
 
 再看一些运用规则CP的实例。
 
-> ![条件证明示例4](media/image53.jpeg)
+> ![条件证明示例4](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445156.pngg)
 
-> ![条件证明示例5](media/image54.jpeg)
+> ![条件证明示例5](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445158.png)
 
-> ![条件证明示例6](media/image55.jpeg)
+> ![条件证明示例6](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445160.png)
 
 在结束本章之前，我们应该指出真值函数逻辑体系的两个理论意义重大的特征：可靠性和完全性。
 
