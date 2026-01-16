@@ -29,16 +29,16 @@ O：特称否定命题
 维恩图的表达方式如下：1. “圆圈”代表命题中的词项所指的类别。2. 阴影部分代表空集。3. X所在的区间代表非空——至少包含一个元素。4. 对于空白部分，该命题未做陈述，其中可能有元素，也可能是空的。
 
 A命题：所有的S都是P
-> ![A命题维恩图](media/image2.jpeg)
+> ![A命题维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B429158.png)
 
 E命题：所有的S都不是P
-> ![E命题维恩图](media/image3.jpeg)
+> ![E命题维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B429173.png)
 
 I命题：有的S是P（至少有一个是P）
-> ![I命题维恩图](media/image4.jpeg)
+> ![I命题维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B429194.png)
 
 O命题：有的S不是P（至少有一个不是P）
-> ![O命题维恩图](media/image5.jpeg)
+> ![O命题维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B429217.png)
 
 陈述类和类之间有包含关系的两类命题：A命题和I命题，是肯定命题（affirmative claims）；陈述类和类之间有排斥关系的两类命题：E命题和O命题，是否定命题（negative claims）。
 
@@ -92,7 +92,7 @@ O命题：有的S不是P（至少有一个不是P）
 
 主项和谓项分别相同的A、E、I、O四种直言命题间存在着对应关系，这种逻辑关系被称为对当关系，该逻辑关系可用对当方阵图来表示。在正方形上方相对位置的A命题和E命题是反对关系——它们可以同时为假，但不可能同时为真。在正方形下方相对位置的I命题和O命题是下反对关系——它们可以都为真，但不可能都为假。处于正方形对角位置的A命题和O命题以及E命题和I命题是矛盾关系——它们的真值正好相反。
 
-> ![对当方阵图](media/image6.jpeg)
+> ![对当方阵图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B431677.png)
 
 #### 9.3.1　存在假设与对当关系
 
@@ -126,19 +126,19 @@ O命题：有的S不是P（至少有一个不是P）
 
 “所有S都是P”的维恩图，它表明如下内容：所有S都不是非P（换质）。所有非P都是非S（换质位）。但是，它没有表明以下内容：所有P都是S（换位）。
 
-> ![所有S都是P的维恩图](media/image7.jpeg)
+> ![所有S都是P的维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B433512.png)
 
 “所有S都不是P”的维恩图，它表明以下内容：所有P都不是S（换位）。所有S都是非P（换质）。它没有表明以下内容：所有非P都不是非S（换质位）。
 
-> ![所有S都不是P的维恩图](media/image8.jpeg)
+> ![所有S都不是P的维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B433586.png)
 
 “有些S是P”的维恩图，它表明以下内容：有些P是S（换位）。有些S不是非P（换质）。它没有表明以下内容：有些非P是非S（换质位）。
 
-> ![有些S是P的维恩图](media/image9.jpeg)
+> ![有些S是P的维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B433654.png)
 
 “有些S不是P”的维恩图，它表明以下内容：有些S不是非P（换质）。有些非P不是非S（换质位）。它没有表明以下内容：有些P不是S（换位）。
 
-> ![有些S不是P的维恩图](media/image10.jpeg)
+> ![有些S不是P的维恩图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B433725.png)
 
 从逻辑上讲，每个直言命题的维恩图也都是其换质命题的维恩图。从逻辑上讲，A或O命题的维恩图也是其换质位命题的维恩图。从逻辑上讲，E或I命题的维恩图也是其换位命题的维恩图。
 
@@ -176,7 +176,7 @@ O命题：有的S不是P（至少有一个不是P）
 
 在标准形式的四种直言命题中，有三种命题中含有一个或多个周延词项。画圆圈的字母代表周延的词项，未画圆圈的字母代表不周延的词项。正如该图表明的，A命题的主项是周延的，O命题的谓项是周延的，E命题的主项和谓项都是周延的，I命题的主项和谓项都是不周延的。
 
-> ![周延图](media/image11.jpeg)
+> ![周延图](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B435385.png)
 
 ##### 9.5.4.2　三条规则
 
@@ -190,12 +190,12 @@ O命题：有的S不是P（至少有一个不是P）
 
 下例违反了哪一条规则？“键盘乐器演奏者”是中项，在两个前提中它都是不周延的。第一个前提是A命题，谓项不周延；第二个前提是O命题，主项不周延。所以这个三段论违反了规则2。
 
-> ![违反规则2示例](media/image12.jpeg)
+> ![违反规则2示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B435640.png)
 
 再看一例：这个三段论违反了规则1，因为它有一个否定前提，而结论却是肯定的。
 
-> ![违反规则1示例](media/image13.jpeg)
+> ![违反规则1示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B435680.png)
 
 最后一个例子：小项“债权人”在结论中是周延的（它是E命题的主项），但是在前提中却不周延（它是A命题的谓项）。所以，这个三段论违反了规则3。
 
-> ![违反规则3示例](media/image14.jpeg)
+> ![违反规则3示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B435752.png)
