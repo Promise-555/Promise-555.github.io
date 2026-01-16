@@ -33,7 +33,7 @@
 
 常见的有效和无效论证结构
 
-![常见的有效和无效论证结构](assets/images/001/批判性思维25639.png)
+![常见的有效和无效论证结构](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B425639.png)
 
 ### 8.2　模棱两可与歧义谬误
 
