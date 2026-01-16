@@ -128,7 +128,7 @@
 
 使得该论证结论为假的唯一方法是让S为真而R为假。所以要做如下赋值：
 
-> ![赋值示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440564.pngg)
+> ![赋值示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B440564.png)
 
 既然S为真，为使第二个前提为真就要Q为真。由此继续赋值：
 
@@ -186,49 +186,49 @@
 
 下面的演绎推理运用了前面两条规则：
 
-> ![否定后件式示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441999.png)
+> ![否定后件式示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441893.png)
 
 规则3：连锁论证式（CA）
 
 若前提中的两个命题都是假言命题，而且一个假言命题的前件正好是另一个假言命题的后件，连锁论证（chain argument）规则就允许你从这两个假言命题中推导出一个假言命题做结论。
 
-> ![连锁论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442053.png)
+> ![连锁论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B441999.png)
 
 规则4：析取论证式（DA）
 
 一个前提是析取命题，另一个前提否定其中一个析取支，则可以推出另一个析取支。
 
-> ![析取论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442124.png)
+> ![析取论证式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442053.png)
 
 规则5：合取分解式（SIM）
 
 如果合取命题是真的，那么合取支一定都是真的。因而，以一个合取命题为前提可以演绎地推出任意一个合取支为结论。
 
-> ![合取分解式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442182.png)
+> ![合取分解式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442124.png)
 
 规则6：合取合成式（CONJ）
 
 这条规则允许你从前提中推出一个合取命题作为结论，该结论由各前提作为合取支构成。
 
-> ![合取合成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442250.png)
+> ![合取合成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442182.png)
 
 规则7：析取附加式（ADD）
 
 显然，无论P和Q代表什么命题，只要P是真的，或者P或者Q一定为真。一个析取支为真则整个析取命题为真。
 
-> ![析取附加式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442325.png)
+> ![析取附加式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442250.png)
 
 规则8：两难推理的构成式（CD）
 
 以两个假言命题和它们的前件的析取为前提可以推导出一个析取命题为结论，结论的析取支分别是上述两个假言命题的后件。
 
-> ![两难推理的构成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442406.png)
+> ![两难推理的构成式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442325.png)
 
 规则9：两难推理的破坏式（DD）
 
 以两个假言命题和它们的后件的否定的析取为前提可以推导出一个析取命题为结论，结论的析取支分别是上述两个假言命题的前件的否定。
 
-> ![两难推理的破坏式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442941.png)
+> ![两难推理的破坏式](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442406.png)
 
 #### 10.5.2　第二组规则：真值函数的等值式
 
@@ -246,7 +246,7 @@ P↔ ～～P
 
 下面是运用DN规则的实例：
 
-> ![双重否定律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B443457.png)
+> ![双重否定律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B442941.png)
 
 规则11：交换律（COM）
 
@@ -266,7 +266,7 @@ P↔ ～～P
 
 假言命题的前件或后件中有而且只有一个带否定符号时，依然可以运用规则13，不过需要采取两个步骤，先运用双重否定规则，再进行假言易位。如：足够熟练后，也可以将上述两步合并为一个步骤。
 
-> ![假言易位律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444138.png)
+> ![假言易位律示例](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B443457.png)
 
 规则14：德摩根定律（DEM）
 
@@ -296,13 +296,13 @@ P↔ ～～P
 
 下面的两个例子是对第一组规则和第二组规则的综合运用。
 
-> ![综合运用示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444140.png)
+> ![综合运用示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444138.png)
 
-> ![综合运用示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444152.png)
+> ![综合运用示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444140.png)
 
 真值函数的演绎规则
 
-> ![真值函数演绎规则](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444453.png)
+> ![真值函数演绎规则](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444152.png)
 
 #### 10.5.3　条件证明
 
@@ -310,11 +310,11 @@ P↔ ～～P
 
 使用CP作为新规则的方法是：在给定的前提之后，直接记下我们想要证明的假言命题的前件，并给推理串的这个步骤的编码画上圈；在该行的注释中，标明“CP前提”。下面就是范例：
 
-> ![条件证明示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444530.png)
+> ![条件证明示例1](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444153.png)
 
 在证明了所需要的假言命题的后件之后，写下整个假言命题。然后，在推理串左边的空白处画上一条线，把画圈的前提和我们由此推出后件的那一行连接起来。证明过程
 
-> ![条件证明示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444980.png)
+> ![条件证明示例2](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444530.png)
 
 一旦我们得出了假言命题～P→R，就不再依赖CP前提，所以我们在推理串左边空白处从CP前提到由之推出的最后一步画上连接线，表明消除了这个设定的前提。
 
@@ -327,13 +327,13 @@ P↔ ～～P
 
 下面运用CP的例子中，有两个附加的前提是假设的，并且以相反的顺序被消去。
 
-> ![条件证明示例3](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445156.png)
+> ![条件证明示例3](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B444980.png)
 
 注意，在第5步加上的附加前提在第8步完成的时候消去了，而第10步完成的时候把第3步的前提消去了。再一次注意：无论何时消去假设前提，你必须让这个命题成为演绎推理中下一步中假言命题的前件（你可以尝试不使用CP来完成前面的演绎，你会庆幸可以运用这个规则，虽然看上去掌握这条规则有些困难，但使用CP让许多演绎推论简化易行）。
 
 再看一些运用规则CP的实例。
 
-> ![条件证明示例4](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445156.pngg)
+> ![条件证明示例4](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445156.png)
 
 > ![条件证明示例5](https://github.com/Promise-555/Promise-555.github.io/blob/main/assets/images/001/%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B445158.png)
 
